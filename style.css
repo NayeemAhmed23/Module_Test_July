@@ -318,9 +318,7 @@ header {
     justify-content: center !important;
     align-items: center !important;
   }
-  .mycol-right {
-    width: 80%;
-  }
+  
   .cards {
     width: 10rem !important;
   }
