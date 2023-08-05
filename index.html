@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins&family=Roboto:wght@400;500;900&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar sticky-top navbar-expand-md navbar-light mx-auto bg-white"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+            <img src="./assets/Logo.svg" alt="image" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pe-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active home" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navigation" aria-current="page" href="#"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navigation" aria-current="page" href="#"
+                  >Pages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navigation" aria-current="page" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navigation" aria-current="page" href="#"
+                  >Lookups</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img src="./assets/Search.svg" alt="icon" />
+              </li>
+              <li class="nav-item">
+                <img src="./assets/User.svg" alt="icon" />
+              </li>
+              <li class="nav-item">
+                <img src="./assets/Notification.svg" alt="icon" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="hero-section d-flex justify-content-between align-items-center gap-5 mx-4"
+      >
+        <div class="left">
+          <p id="para-1">Limited Time Only For Winter</p>
+          <p id="para-2">fashion</p>
+          <p id="para-3">LOOK YOUR BEST ON YOUR BEST DAY</p>
+          <button type="button" class="btn btn-danger px-4 cta">
+            Explore Now!
+          </button>
+        </div>
+        <div class="right">
+          <img
+            src="./assets/hero-img.svg"
+            alt="img"
+            width="480px"
+            height="599px"
+          />
+        </div>
+      </section>
+      <section class="collection-section d-flex flex-column align-items-center">
+        <div
+          class="upper d-flex flex-column align-items-center justify-content-center mt-3"
+        >
+          <p id="p1">COLLECTION</p>
+          <img id="p3" src="./assets/Exclude.svg" alt="icon" width="80px" />
+          <p id="p2">Our Top Collection</p>
+        </div>
+        <div class="middle p-3">
+          <button type="button" class="me-3 p-3 button">Jewellery</button>
+          <button type="button" class="me-3 p-3 button-2">Accessories</button>
+          <button type="button" class="me-3 p-3 button">Dresses</button>
+          <button type="button" class="p-3 button">Footwear</button>
+        </div>
+        <div
+          class="lower w-100 d-flex align-content-center justify-content-center gap-5"
+        >
+          <div class="cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/hoodie.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img class="card-top-img" src="./assets/dress.svg" alt="img" />
+              <img
+                id="card-top-img"
+                src="./assets/Favorties Icon.svg"
+                alt="img"
+              />
+            </div>
+            <div class="card-bottom">
+              <p id="name">
+                Armani Frok Ladies - Imported <br />
+                Fork Blue
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price">$250</p>
+                <img src="./assets/Rating2.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img class="card-top-img" src="./assets/watch.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name">
+                Apple Watch Series 6 - Sliver <br />
+                Band
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price">$450</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new-arrival-section">
+        <div
+          class="new-arrival-top d-flex flex-column align-items-center justify-content-center mt-3"
+        >
+          <p id="p1">New Arrival</p>
+          <img id="p3" src="./assets/Exclude.svg" alt="icon" width="80px" />
+          <p id="p2">Latest Collection</p>
+        </div>
+        <div class="new-arrival-bottom mx-auto mb-5">
+          <div class="gallery mb-5">
+            <div class="item-1 image">
+              <img src="./assets/Poster 1.svg" alt="img" />
+            </div>
+            <div class="item-2 image">
+              <img src="./assets/Poster 2.svg" alt="img" />
+            </div>
+            <div class="item-3 image">
+              <img src="./assets/Poster 3.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="categories-section d-flex flex-column align-items-center justify-content-center"
+      >
+        <div
+          class="categories-section-top d-flex flex-column align-items-center justify-content-center mt-3"
+        >
+          <p id="p1">CATEGORIES</p>
+          <img id="p3" src="./assets/Exclude.svg" alt="icon" width="80px" />
+          <p id="p2">2021 Latest Collection</p>
+        </div>
+        <div
+          class="categories-section-bottom w-100 d-flex align-content-center justify-content-center flex-wrap gap-3"
+        >
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-1.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards-2 d-flex flex-column align-items-center">
+            <div class="card-top-2">
+              <img class="card-top-img-2" src="./assets/img-2.svg" alt="img" />
+              <img
+                id="card-top-img-2"
+                src="./assets/Favorties Icon.svg"
+                alt="img"
+              />
+            </div>
+            <div class="card-bottom-2">
+              <p id="name-2">
+                Armani Frok Ladies - Imported <br />
+                Fork Blue
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$250</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-3.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-4.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-5.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-6.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-7svg.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="small-cards d-flex flex-column align-items-center">
+            <div class="card-top">
+              <img src="./assets/img-8.svg" alt="img" />
+            </div>
+            <div class="card-bottom">
+              <p id="name-2">
+                Nike Air Men’s Hoodie - Imported <br />
+                Hoodie Red
+              </p>
+              <div
+                class="d-flex align-items-center justify-content-between px-3"
+              >
+                <p id="price-2">$150</p>
+                <img src="./assets/Rating1.svg" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="color w-100">
+      <div class="my-footer d-flex mx-auto w-100">
+        <div class="mycol1 d-flex flex-column">
+          <div class="btlogo d-flex">
+            <img src="./assets/Logo-small.svg" alt="Logo" />
+            <p class="brandName">Codevo</p>
+          </div>
+          <p id="bttext">
+            Lorem ispum is a placeholder text commonly used as a free text.
+          </p>
+          <div class="socials">
+            <img src="./assets/Social Media Buttons.svg" alt="" />
+          </div>
+          <p id="bttext2">Copyrights 2021 @Iamabdulqadeer01</p>
+        </div>
+        <div class="mycol-right d-flex">
+          <div class="mycol2">
+            <table class="table-1">
+              <thead>
+                <th>Product</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Download</td>
+                </tr>
+                <tr>
+                  <td>Pricing</td>
+                </tr>
+                <tr>
+                  <td>Location</td>
+                </tr>
+                <tr>
+                  <td>Server</td>
+                </tr>
+                <tr>
+                  <td>Coutries</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mycol2">
+            <table class="table-1">
+              <thead>
+                <th>Category</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Men</td>
+                </tr>
+                <tr>
+                  <td>Women</td>
+                </tr>
+                <tr>
+                  <td>Kids</td>
+                </tr>
+                <tr>
+                  <td>Best Sellers</td>
+                </tr>
+                <tr>
+                  <td>New Arrivals</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mycol2">
+            <table class="table-1">
+              <thead>
+                <th>My Account</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>My Account</td>
+                </tr>
+                <tr>
+                  <td>Discount</td>
+                </tr>
+                <tr>
+                  <td>Returns</td>
+                </tr>
+                <tr>
+                  <td>Order History</td>
+                </tr>
+                <tr>
+                  <td>Order Tracking</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mycol2">
+            <table class="table-1">
+              <thead>
+                <th>Contact Us</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="cell d-flex">
+                      <div class="conlogo">
+                        <img src="./assets/location.svg" alt="location" />
+                      </div>
+                      <div class="condetails">
+                        123 Street Trafford, London, UK
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="cell d-flex">
+                      <div class="conlogo">
+                        <img src="./assets/msg.svg" alt="mail" />
+                      </div>
+                      <div class="condetails">info@companyname.com</div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="cell d-flex">
+                      <div class="conlogo">
+                        <img src="./assets/call.svg" alt="phone" />
+                      </div>
+                      <div class="condetails">+456 789 789 001</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
